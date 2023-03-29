@@ -11,6 +11,24 @@
   gap: 20px;
 }
 
+
+/* .block-grid-squareSmall {
+  position: relative;
+}
+
+.block-grid-squareLarge {
+  position: relative;
+}
+
+.block-grid-rectangleHorizontal {
+  position: relative;
+}
+
+.block-grid-rectangleVertical {
+  position: relative;
+} */
+
+
 .block-grid-icon {
   position: absolute;
   top: 20px;
@@ -23,6 +41,7 @@
   justify-content: space-between;
 
   cursor: pointer;
+  /* opacity: 0; */
 }
 
 .block-grid-icon-heart {
@@ -103,7 +122,7 @@
  
   border-radius: 20px;
   padding: 20px;
-  /* gap: 8px; */
+  gap: 8px;
 
   width: 100%;
   height: 100%;
@@ -113,10 +132,10 @@
   background-position: center;
   transition: transform 0.3s ease-in-out;
 
-  overflow: hidden;
-  position: relative;
+  /* overflow: hidden; */
+  /* position: relative; */
 
-  cursor: pointer;
+  /* cursor: pointer; */
 }
 
 .block-container1-grid-item1:hover {
@@ -126,6 +145,10 @@
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease-in-out;
+}
+
+.block-container1-grid-item1:hover.block-grid-icon {
+  opacity: 1;
 }
 
 .block-container1-grid-item1-text {
@@ -166,6 +189,11 @@
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease-in-out;
+
+  /* overflow: hidden;
+  position: relative;
+
+  cursor: pointer; */
 }
 
 .block-container1-grid-item2:hover {
@@ -216,6 +244,11 @@
   background-size: cover;
   background-position: center;
   transition: transform 0.3s ease-in-out;
+
+  /* overflow: hidden;
+  position: relative;
+
+  cursor: pointer; */
 }
 
 .block-container1-grid-item3:hover {
